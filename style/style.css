@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+:root{--soft-blue: hsl(231,69%,60%)}
+:root{--soft-Red: hsl(0, 94%, 66%)}
+:root{--Grayish-Blue: hsl(229, 8%, 60%)}
+:root{--Very-Dark-Blue: hsl(229, 31%, 21%)}
+:root{--soft-grey: rgb(247, 247, 247)}
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: rubik;
+    font-size: 18px;
+}
+.header{
+    margin: 0% 2.5%;
+    display: flex;
+    align-items: center;
+}
+.imgHeader{
+    margin-right: 20%;
+}
+.divButton{
+    width: 54%;
+    margin-left: 30%;
+}
+.button-header{
+    width: 15%;
+    height: 35px;
+    padding: 0.5%;
+    border: 0;
+    border-radius: 5px;
+    margin: 1% 3%;
+    background-color: white;
+    font-weight: bold;
+}
+.button-login{
+    margin: 1% 3%;
+    color: white;
+    background-color: var(--soft-Red);
+    width: 15%;
+    height: 35px;
+    padding: 0.5%;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0px 2.5px 2.5px var(--Grayish-Blue);
+    font-weight: bold;
+}
+
+
+
+
+
+.description{
+    display: flex;   
+    margin: 4% 0% 0 5%;
+}
+.divDescription{
+    width: 36%;
+    margin: 5% 12% 5% 0%;
+}
+.h1Description{
+    font-weight: bold;
+    width: 80%;
+    margin-left: 1%;
+}
+.pDescription{
+    color: var(--Grayish-Blue);
+    margin-left: 1%;
+    width: 110%;
+}
+.buttonDescriptionChrome{
+    background-color: var(--soft-blue);
+    color: white;
+    width: 30%;
+    height: 35px;
+    padding: 0.5%;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0px 2.5px 2.5px var(--Grayish-Blue);
+}
+.buttonDescriptionFirefox{
+    background-color: var(--soft-grey);
+    width: 30%;
+    height: 35px;
+    padding: 0.5%;
+    border: 0;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    margin-left: 1%;
+    box-shadow: 0px 2.5px 2.5px var(--Grayish-Blue);
+}
+
+
+
+
+
+.divFeatures{
+    text-align: center;
+    margin: 5% 30%;
+    width: 40%;
+    color: var(--Grayish-Blue);
+}
+.h2Features{
+    color: black;
+}
+
+
+
+
+
+.divMenu{
+    margin-left: 20%;
+    width: 60%;
+}
+.buttonMenu{
+    background-color: transparent;
+    width: 32.9%;
+    border: 0;
+    border-bottom: 2.5px solid;
+    padding: 10px;
+    font-size: 80%;
+    font-weight: bold;
+}
+
+
+
+
+
+.description2{
+    display: flex;   
+    align-items: center;
+    margin: 4% 5% 0 0%;
+}
+.divDescription2{
+    background-color: white;
+    width: 31%;
+    margin: 0.5% 1% 0% 7.5%;
+}
+.h2Description2{
+    font-weight: bold;
+    margin-left: 1%;
+}
+.pDescription2{
+    color: var(--Grayish-Blue);
+    margin-left: 1%;
+    width: 110%;
+}
+.buttonDescription2{
+    background-color: var(--soft-blue);
+    color: white;
+    width: 30%;
+    height: 35px;
+    padding: 0.5%;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 1%;
+    box-shadow: 0px 2.5px 2.5px var(--Grayish-Blue);
+}
+
+
+
+
+
+.download{
+    width: 70%;
+    margin: 3% 15%;
+    text-align: center;
+}
+.divDownloadDescription{
+    width: 70%;
+    margin: 1% 15%;
+}
+.pDownloadDescription{
+    color: var(--Grayish-Blue);
+}
+.divList{
+    display: flex;
+}
+.divChrome{
+    margin: 0% 2%;
+    width: 40%;
+    height: 23rem;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px beige;
+}
+.divFirefox{
+    margin: 4% 2%;
+    width: 40%;
+    height: 23rem;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px beige;
+}
+.divOpera{
+    margin: 8% 2% 0 1%;
+    width: 40%;
+    height: 23rem;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px beige;
+}
+.logoNavegador{
+    margin: 10%;
+}
+.h5Navegador{
+    color: var(--Grayish-Blue);
+    margin: 5%;
+}
+.h5Navegador{
+    margin: 3%;
+}
+.buttonNavegador{
+    background-color: var(--soft-blue);
+    color: white;
+    width: 70%;
+    height: 15%;
+    padding: 0.5%;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 5%;
+    box-shadow: 0px 2.5px 2.5px var(--Grayish-Blue);
+}
+
+
+
+
+
+.questions{
+    background-color: aqua;
+    text-align: center;
+    margin: 0 15%;
+    width: 70%;
+}
+.h3Questions{
+    text-align: left;
+    padding: 1%;
+    background-color: aquamarine;
+    border: solid var(--soft-grey);
+    border-width: 1px 0 1px 0 ;
+}
+.buttonQuestion{
+    background-color: var(--soft-blue);
+    color: white;
+    width: 10%;
+    height: 30px;
+    padding: 0.5%;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 2% 0 7% 1%;
+    box-shadow: 0px 2.5px 2.5px var(--Grayish-Blue);    
+}
+
+
+
+
+
+
+.divFooter1{
+    color: white;
+    background-color: var(--soft-blue);
+    height: 20rem;
+    text-align: center;
+}
+.h5Footer{
+    padding: 3.5%; 
+    margin:0;
+}
+.h2Footer{
+    margin: 0 35% 2% 35%;
+}
+form{
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    width: 100%;
+    height: 200px;
+    border: 0;
+}
+.inputFooter{
+    margin: 1%;
+    border-radius: 5px;
+    width: 20%;
+    height: 12%;
+    border: 0;
+}
+.buttonFooter1{
+    color: white;
+    margin: 1% 0;
+    background-color: var(--soft-Red);
+    width: 10%;
+    height: 12%;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0px 2.5px 2.5px var(--Grayish-Blue);
+    font-weight: bold;   
+}
+.divFooter2{
+    background-color: var(--Very-Dark-Blue);
+    display: flex;
+    align-items: center;
+    max-height: 70px;
+}
+.logoFooter{
+    padding: 10%;
+    margin-left: 10%;
+}
+.divButton{
+    margin: 0.8% 3%;
+}
+.buttonFooter{
+    border: 0;
+    margin: 2%;
+    background-color: transparent;
+    color: white;
+}
+.buttonFooter2{
+    border: 0;
+    margin: 0 15px;
+    color: white;
+    padding: 0%;
+}
+#facebook{
+    background-color: var(--Very-Dark-Blue);
+}
+#twitter{
+    background-color: var(--Very-Dark-Blue);
+}
+.divFooter3{
+    margin-left: 2%;
+    display: flex;
+}
